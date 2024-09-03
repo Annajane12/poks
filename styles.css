@@ -1,0 +1,162 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 20px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    padding: 5px;
+}
+
+.The-cards{
+    transition: 0.3s;
+    width: 150px;
+    height: 230px;
+    border: 1px solid #ccc;
+    transition-duration: 2;
+}
+.The-cards:hover{
+    box-shadow: 0 1px 15px #f826ee;
+}
+
+.The-cards:hover img{
+    width: 150px;
+    padding: 0px;
+}
+
+.The-cards img {
+    width: 100%;
+}
+
+.The-cards ul{
+    padding: 0px;
+    margin: 0PX;
+    text-align: center;
+}
+
+.name {
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.id{
+    font-size: 15px;
+}
+
+.type {
+    font-size: 14px;
+}
+
+.electric-poison {
+    background-color:yellow;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.psychic{
+    background-color:#2796ff;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.grass{
+    background-color: #34ff45;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.fairy{
+    background-color: #ec3737;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.dragon-flying {
+    background-color: #fa9e36;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.bug-flying {
+    background-color:  #f87070;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.normal-fairy {
+    background-color:  #f73e9a ;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.water {
+    background-color: #2796ff;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.rock-fairy {
+    background-color:#c96ed3fa;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.normal {
+    background-color:#b1b1b1c0;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.electric {
+    background-color:yellow;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+
+.grass-poison {
+    background-color:rgb(119, 226, 19);
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.water-fairy {
+    background-color: #2796ff;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
+
+.rock-ice{
+    background-color:#4df1e9;
+    opacity: 90%;
+    padding: 1px 5px;
+    border-radius: 2px;
+}
