@@ -160,3 +160,8 @@ h1{
     padding: 1px 5px;
     border-radius: 2px;
 }
+.Container img: hover{
+    Transition: 0.5
+    Animation: 1.5
+    
+}
